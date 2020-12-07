@@ -1,6 +1,3 @@
-# Code complete
-
-## chapt 8
 檢查所有輸入到程式的值不論是從外部或是子程式而來，都無法信任必須自己檢查有沒有合法或是安全性的問題
 assert 用在開發階段可以幫助我們快速找到問題，可以從 production code 移除避免降低效能
 error handling 是用來處理預期會發生問題的情況，assert 則是檢查絕不該發生的問題，一但觸發了 assert 就表示 code 有問題必須要修正
